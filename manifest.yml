@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: app-conver-test-fechavez
+  host: app-conver-test-fechavez
+  disk_quota: 1024M
+  services:
+  - app-conver-test-fechavez-cloudantNoSQLDB
